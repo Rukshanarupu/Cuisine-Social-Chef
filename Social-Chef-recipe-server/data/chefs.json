@@ -1,0 +1,316 @@
+{
+    "cuisine": "Italian",
+    "chefs": [
+      {
+        "id": 1,
+        "picture": "https://plus.unsplash.com/premium_photo-1661778091956-15dbe6e47442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNoZWZ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "name": "Mario Rossi",
+        "experience": "10 years",
+        "total_recipes": 50,
+        "likes": 1500,
+        "bio": "Mario Rossi is an Italian chef who specializes in making traditional Italian pasta dishes. He has worked in some of the best Italian restaurants in the world and has won several awards for his culinary skills.",
+        "recipes": [
+            {
+              "recipeName": "Spaghetti Carbonara",
+              "photo": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8U3BhZ2hldHRpJTIwQ2FyYm9uYXJhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60",
+              "ingredients": [
+                "400g spaghetti",
+                "150g pancetta, diced",
+                "3 eggs",
+                "1 cup grated pecorino cheese",
+                "2 cloves garlic, minced",
+                "Salt and black pepper to taste"
+              ],
+              "method": "Cook spaghetti and reserve 1 cup pasta water. Cook pancetta until crispy, add garlic. Whisk eggs and pecorino cheese. Add pasta to skillet, toss with egg mixture. Add pasta water if needed. Season and serve hot.",
+              "rating": 4.5
+            },
+            {
+              "recipeName": "Margherita Pizza",
+              "photo": "https://media.istockphoto.com/id/1366573468/photo/vegatarian-pizza.jpg?b=1&s=170667a&w=0&k=20&c=tM4ECI_BEDhd9jlhu9RyOw5UOZIMoIx0dsfM4OqAYbI=",
+              "ingredients": [
+                "1 lb pizza dough",
+                "1 cup tomato sauce",
+                "8 oz fresh mozzarella cheese, sliced",
+                "2 tbsp fresh basil, chopped",
+                "2 tbsp olive oil",
+                "Salt and black pepper to taste"
+              ],
+              "method": "To make pizza, preheat oven. Roll out dough, spread sauce, top with mozzarella slices, drizzle oil. Bake until golden and bubbly. Add fresh basil, serve hot.",
+              "rating": 4.8
+            },
+            {
+              "recipeName": "Pesto Pasta",
+              "photo": "https://media.istockphoto.com/id/1337225200/photo/pesto-and-pine-nut-pasta-salad-fusilli-pasta-with-regato-cheese-and-baby-spinach-coated-in.jpg?b=1&s=170667a&w=0&k=20&c=0QXAexjE1ZXEGaNFzXmCcoQPlTAj_FAfzbLEnDkW9LU=",
+              "ingredients": [
+                "Pasta",
+                "Fresh basil leaves",
+                "Garlic",
+                "Pine nuts",
+                "Parmesan cheese"
+              ],
+              "method": "To make pesto pasta, cook pasta according to package directions. In a food processor, blend fresh basil leaves, garlic, pine nuts, and Parmesan cheese until smooth. Drain pasta and toss with pesto. Serve hot.",
+              "rating": 4.2
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "picture": "https://plus.unsplash.com/premium_photo-1673830185775-9e3c5a77fb40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA5fHxjaGVmfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "name": "Giovanni Bianchi",
+        "experience":" 8 years",
+        "total_recipes": 30,
+        "likes": 1200,
+        "bio": "Giovanni Bianchi is an Italian chef who loves experimenting with new flavors and ingredients. He is known for his creative approach to Italian cuisine and has been featured in several food magazines.",
+        "recipes":[
+            {
+                "recipeName": "Lasagna",
+                "photo": "https://media.istockphoto.com/id/1337225200/photo/pesto-and-pine-nut-pasta-salad-fusilli-pasta-with-regato-cheese-and-baby-spinach-coated-in.jpg?b=1&s=170667a&w=0&k=20&c=0QXAexjE1ZXEGaNFzXmCcoQPlTAj_FAfzbLEnDkW9LU=",
+                "ingredients": [
+                    "lasagna noodles",
+                    "ground beef",
+                    "onion",
+                    "garlic",
+                    "tomato sauce",
+                    "ricotta cheese",
+                    "mozzarella cheese"
+                ],
+                "method": "Cook noodles, brown beef with onion and garlic, add tomato sauce and simmer. Mix cheeses, layer meat sauce, noodles, and cheese in a dish, bake covered, then uncovered. Let stand before serving.",
+                "rating": 4.6
+            },
+            {
+                "recipeName": "Polenta",
+                "photo": "https://media.istockphoto.com/id/1366479159/photo/vegan-polenta-italian-food-plant-based-recipe-mediterranean-diet.jpg?b=1&s=170667a&w=0&k=20&c=mdDXLmHPYcbM28mch-nwdpH2BEpbdx41t2VTaNpsFyQ=",
+                "ingredients": [
+                  "Yellow cornmeal",
+                  "Water",
+                  "Salt",
+                  "Butter",
+                  "Parmesan cheese"
+                ],
+                "method": "Boil water and salt, slowly pour in cornmeal while stirring, cook for 30-40 minutes stirring occasionally, stir in butter and Parmesan cheese",
+                "rating": 4.0
+            },
+            {
+                "recipeName": "Ravioli",
+                "photo": "https://media.istockphoto.com/id/184637819/photo/ravioli-with-tomato-sauce.jpg?b=1&s=170667a&w=0&k=20&c=_JfYSuCJ380tcuarHAew2LiyRL_ENMK0jbl30KP2CPc=",
+                "ingredients": [
+                    "Pasta dough",
+                    "Ricotta cheese",
+                    "Spinach",
+                    "Egg",
+                    "Parmesan cheese",
+                    "Nutmeg"
+                ],
+                "method": "Roll out pasta dough, mix ricotta cheese, spinach, egg, Parmesan cheese, and nutmeg, spoon mixture onto pasta dough, top with another sheet of dough, cut into shapes, boil for a few minutes",
+                "rating": 4.1
+            }
+        ]
+
+      },
+      {
+        "id": 4,
+        "picture": "https://images.unsplash.com/photo-1574966740793-953ad374e8fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGNoZWZ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "name": "Luigi Esposito",
+        "experience": "15 years",
+        "total_recipes": 80,
+        "likes": 2000,
+        "bio": "Luigi Esposito is an Italian chef who has dedicated his life to perfecting traditional Italian recipes. He is a master of pasta, pizza, and seafood dishes, and has been cooking since he was a child.",
+        "recipe_des":[
+            {
+                "recipeName": "Tiramisu",
+              "photo": "https://media.istockphoto.com/id/171265594/photo/tiramisu.jpg?b=1&s=170667a&w=0&k=20&c=GBubD24TgIIHLlrWmlINjcDsodex61ghl1BQMLU4fsk=",
+                "ingredients": [
+                  "Ladyfingers",
+                  "Mascarpone cheese",
+                  "Egg yolks",
+                  "Sugar",
+                  "Espresso coffee",
+                  "Cocoa powder"
+                ],
+                "method": "Mix egg yolks and sugar, add mascarpone cheese, dip ladyfingers in coffee and layer in dish with cheese mixture, dust with cocoa powder",
+                "rating": 4.7
+              },
+              {
+                "recipeName": "Gordon Ramsay's Beef",
+              "photo": "https://media.istockphoto.com/id/1070876558/photo/gordon-ramsay-burger.jpg?b=1&s=170667a&w=0&k=20&c=EnmBpYooGJZ_KkwqHiSxJShACHKmNCyv6SSfWtSxBi0=",
+                "ingredients": [
+                  "Beef tenderloin",
+                  "Puff pastry",
+                  "Prosciutto",
+                  "Mushrooms",
+                  "Dijon mustard",
+                  "Egg yolk"
+                ],
+                "method": "Wrap beef in prosciutto and mushrooms, sear in pan, brush with mustard and wrap in puff pastry, bake until golden brown",
+                "rating": 4.2
+              },
+              {
+                "recipeName": "Risotto Alla Milanese",
+              "photo": "https://media.istockphoto.com/id/471030909/photo/seafood-risotto-alla-pescatora.jpg?b=1&s=170667a&w=0&k=20&c=BfvrULjVFVQuScR_H8n6Lu_JxDVHs3vtLwJbiXqompA=",
+                "ingredients": [
+                  "Arborio rice",
+                  "Saffron",
+                  "Parmesan cheese",
+                  "Onion",
+                  "White wine",
+                  "Butter"
+                ],
+                "method": "Cook onion in butter, add rice and white wine, gradually add broth and saffron, stir in Parmesan cheese",
+                "rating": 5.1
+              }
+        ]
+      },
+      {
+        "id": 3,
+        "picture": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNoZWZ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "name": "Riccardo Martini",
+        "experience": "12 years",
+        "total_recipes": 60,
+        "likes": 1800,
+        "bio": "Riccardo Martini is an Italian chef who has worked in some of the most prestigious restaurants in Italy. He is known for his exquisite taste and attention to detail, and has won several awards for his culinary creations.",
+        "recipe_des":[
+            {
+                "recipeName": "Osso Buco",
+                "photo": "",
+                "ingredients": [
+                  "Veal shanks",
+                  "Carrots",
+                  "Celery",
+                  "Onion",
+                  "Tomatoes",
+                  "White wine"
+                ],
+                "method": "Brown veal shanks, saute vegetables, add tomatoes and white wine, simmer for several hours until meat is tender",
+                "rating": 4.1
+              },
+              {
+                "recipeName": "Arancini",
+                "photo": "https://media.istockphoto.com/id/1409437552/photo/isolated-portion-of-sicilian-arancini-balls.jpg?b=1&s=170667a&w=0&k=20&c=UqQth7-wNnNQ9jKk_CQve8VKUAlxbYWzCDMGhurbzyU=",
+                "ingredients": [
+                  "Risotto",
+                  "Mozzarella cheese",
+                  "Breadcrumbs",
+                  "Egg",
+                  "Vegetable oil",
+                  "Marinara sauce"
+                ],
+                "method": "Form risotto into balls with mozzarella cheese in the center, roll in breadcrumbs, dip in beaten egg, fry in vegetable oil until golden brown, serve with marinara sauce",
+                "rating": 3.7
+            },
+            {
+                "recipeName": "Caprese Salad",
+                "photo": "https://media.istockphoto.com/id/1264941753/photo/traditional-caprese-salad-top-view.jpg?b=1&s=170667a&w=0&k=20&c=VzsULc1rzB8mFI0EDBtNH3g_yt0E_1CWLnmezUxzOjc=",
+                "ingredients": [
+                  "tomatoes",
+                  "mozzarella cheese",
+                  "basil",
+                  "olive oil",
+                  "salt"
+                ],
+                "method": "Slice the tomatoes and cheese. Arrange them on a plate with the basil leaves. Drizzle with olive oil and sprinkle with salt.",
+                "rating": 4.5
+            }
+        ]
+      },
+      {
+        "id": 5,
+        "picture": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2hlZnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "name": "Anna Russo",
+        "experience":" 6 years",
+        "total_recipes": 20,
+        "likes": 800,
+        "bio": "Anna Russo is an Italian chef who specializes in making healthy and nutritious Italian dishes. She believes that food should not only taste good but also be good for you, and has developed several recipes that are both delicious and healthy.",
+        "recipe_des":[
+            {
+                "recipeName": "Ribollita",
+                "photo": "https://media.istockphoto.com/id/174853955/photo/ribollita-iasels.jpg?b=1&s=170667a&w=0&k=20&c=mIOjBxuZK7FzeKaQM0a4eoz9uUUQwIiqtYWiwKG3MWM=",
+                "ingredients": [
+                  "cannellini beans",
+                  "kale",
+                  "carrots",
+                  "celery",
+                  "onion"
+                ],
+                "method": "Cook the vegetables in a pot with olive oil until tender. Add the beans and broth, and let simmer for 30 minutes. Serve hot.",
+                "rating": 4.1
+            },
+            {
+                "recipeName": "Spaghetti Alla Carbonara",
+                "photo": "https://media.istockphoto.com/id/1344241923/photo/spaghetti-with-meatballs-and-tomato-sauce-italian-pasta.jpg?b=1&s=170667a&w=0&k=20&c=WAo4kpfIBZaCU8rIWMf7n5CTlmcSF4ZB6y-sU18wLKg=",
+                "ingredients": [
+                  "spaghetti",
+                  "bacon",
+                  "eggs",
+                  "pecorino cheese",
+                  "black pepper"
+                ],
+                "method": "Cook the spaghetti in salted boiling water. Fry the bacon in a pan until crispy. Beat the eggs and mix in the cheese and pepper. Drain the spaghetti and add to the pan with the bacon. Turn off the heat and add the egg mixture. Stir until the sauce thickens.",
+                "rating": 3.5
+            },
+            {
+                "recipeName": "Neapolitan Pizza",
+                "photo": "https://media.istockphoto.com/id/499170323/photo/margherita-flat-bread-pizza.jpg?b=1&s=170667a&w=0&k=20&c=6RbSLRiqZ6ufoQZX5ApejCh188NE25bWWw1PYSTsNvg=",
+                "ingredients": [
+                  "flour",
+                  "yeast",
+                  "tomato sauce",
+                  "mozzarella cheese",
+                  "basil"
+                ],
+                "method": "Mix the flour and yeast with water and salt. Knead the dough and let it rise. Roll out the dough and add the tomato sauce and cheese. Bake in a hot oven for 10-15 minutes. Add the fresh basil before serving.",
+                "rating": 3.8
+            }
+        ]
+      },
+      {
+        "id": 6,
+        "picture": "https://images.unsplash.com/photo-1592332297790-c7c27c38ecb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGNoZWYlMjBjb29raW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "name": "Paolo Conti",
+        "experience": "20 years",
+        "total_recipes": 100,
+        "likes": 2500,
+        "bio": "Paolo Conti is an Italian chef who has dedicated his life to promoting Italian cuisine around the world. He is a master of traditional Italian dishes, and has taught cooking classes in several countries.",
+        "recipe_des":[
+            {
+                "recipeName": "Gnocchi",
+                "photo": "https://media.istockphoto.com/id/1201441614/photo/serving-of-gnocchi-pasta-with-pomodoro-sauce.jpg?b=1&s=170667a&w=0&k=20&c=hdBqPEljc39NIesU8_bjlgvuevwNK0P-a41gRZ-jbw8=",
+                "ingredients": [
+                  "potatoes",
+                  "flour",
+                  "egg",
+                  "Parmesan cheese",
+                  "nutmeg"
+                ],
+                "method": "Boil the potatoes until tender. Mash them and mix in the flour, egg, cheese, and nutmeg. Roll out the dough and cut into small pieces. Cook in salted boiling water until they float to the surface. Serve with sauce.",
+                "rating": 4.8
+              },
+              {
+                "recipeName": "Swordfish",
+                "photo": "https://media.istockphoto.com/id/1354340542/photo/swordfish-with-lobster-bisque.jpg?b=1&s=170667a&w=0&k=20&c=5z_Pq10AzOno_-L49UkOeCOUtwO3Wt6wWR8Lf74gNzM=",
+                "ingredients": [
+                  "swordfish",
+                  "lemon",
+                  "garlic",
+                  "parsley",
+                  "olive oil"
+                ],
+                "method": "Marinate the swordfish in lemon juice, garlic, parsley, and olive oil for 30 minutes. Grill or broil until cooked through. Serve hot.",
+                "rating": 5.2
+              },
+              {
+                "recipeName": "Parmigiana",
+                "photo": "https://images.unsplash.com/photo-1660297730980-fc6d2fd81ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8UGFybWlnaWFuYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1200&q=60",
+                "ingredients": [
+                  "eggplant",
+                  "tomato sauce",
+                  "mozzarella cheese",
+                  "Parmesan cheese",
+                  "olive oil"
+                ],
+                "method": "Slice the eggplant and fry in olive oil until golden. Layer the eggplant in a baking dish with tomato sauce and mozzarella and Parmesan cheese. Bake in a hot oven for 20-30 minutes until golden and bubbly.",
+                "rating": 5.4
+              }
+        ]
+      }
+    ]
+  }
